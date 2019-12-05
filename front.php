@@ -10,7 +10,8 @@ $response = new Response();
 
 $map = [
     '/hello' => __DIR__ . '/hello.php',
-    '/bye'   => __DIR__ . '/bye.php',
+    '/bye' => __DIR__ . '/bye.php',
+    '/breakfast' => __DIR__ . '/breakfast.php'
 ];
 
 $path = $request->getPathInfo();
